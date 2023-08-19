@@ -20,7 +20,7 @@ body {
   gap: 0.75em;
   width: min(90%, 60rem);
   padding: 2em;
-  box-shadow: 5px 5px 10px 5px #201e1f;
+  box-shadow: 0 0 1rem #201e1f;
 }
 .card__title {
   color: #da3f0b;
@@ -36,7 +36,7 @@ body {
 .btn:hover, .btn:focus {
   background: #201e1f;
   color: #f8f7f7;
-  box-shadow: #da3f0b;
+  box-shadow: 0 0 1rem #da3f0b;
 }
 .btn--primary {
   color: #f8f7f7;
