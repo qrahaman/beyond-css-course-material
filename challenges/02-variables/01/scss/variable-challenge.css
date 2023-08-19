@@ -1,19 +1,13 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  background: $clr-white;
 }
-
-$clr-white: #f8f7f7;
-$clr-black: #201e1f;
-$clr-red: #da3f0b;
 
 body {
   font-size: 1.75rem;
   font-family: system-ui, sans-serif;
   line-height: 1.6;
-  color: $clr-black;
-
+  background: #201e1f;
   /* this is being used to center the content on the screen */
   display: grid;
   height: 100vh;
@@ -31,12 +25,9 @@ body {
   display: inline-block;
   padding: 0.5em 1.5em;
   text-decoration: none;
-  &:hover, &:focus {
-    background: $clr-black;
-  }
 }
 
 .flex-group {
   display: flex;
   gap: 1rem;
-}
+}/*# sourceMappingURL=variable-challenge.css.map */
