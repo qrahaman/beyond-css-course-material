@@ -1,12 +1,14 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  background: #f8f7f7;
 }
 
 body {
   font-size: 1.75rem;
   font-family: system-ui, sans-serif;
   line-height: 1.6;
+  color: #201e1f;
   /* this is being used to center the content on the screen */
   display: grid;
   height: 100vh;
@@ -18,12 +20,29 @@ body {
   gap: 0.75em;
   width: min(90%, 60rem);
   padding: 2em;
+  box-shadow: #201e1f;
+}
+.card__title {
+  color: #da3f0b;
 }
 
 .btn {
   display: inline-block;
   padding: 0.5em 1.5em;
   text-decoration: none;
+  border: #da3f0b;
+}
+.btn:hover, .btn:focus {
+  background: #201e1f;
+  color: #f8f7f7;
+  box-shadow: #da3f0b;
+}
+.btn--primary {
+  color: #f8f7f7;
+}
+.btn--outline {
+  background: #f8f7f7;
+  color: #da3f0b;
 }
 
 .flex-group {
