@@ -1,12 +1,14 @@
+
+$clr-white: #f8f7f7;
+$clr-black: #201e1f;
+$clr-red: #da3f0b;
+
 * {
   box-sizing: border-box;
   margin: 0;
   background: $clr-white;
 }
 
-$clr-white: #f8f7f7;
-$clr-black: #201e1f;
-$clr-red: #da3f0b;
 
 body {
   font-size: 1.75rem;
@@ -25,14 +27,28 @@ body {
   gap: 0.75em;
   width: min(90%, 60rem);
   padding: 2em;
+  box-shadow: $clr-black;
+  &__title {
+   color: #da3f0b; 
+  }
 }
 
 .btn {
   display: inline-block;
   padding: 0.5em 1.5em;
   text-decoration: none;
+  border: $clr-red;
   &:hover, &:focus {
     background: $clr-black;
+    color: $clr-white;
+    box-shadow: $clr-red;
+  }
+  &--primary {
+    color: $clr-white;
+  }
+  &--outline {
+    background: $clr-white;
+    color: $clr-red;
   }
 }
 
