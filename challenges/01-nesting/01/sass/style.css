@@ -1,11 +1,10 @@
-@charset "UTF-8";
 .primary-article {
   padding: 3rem 1rem;
 }
-.primary-article .title {
-  font-size: 5rem;
-}
-.primary-article .title span {
+
+.pointing-list {
+  margin: 2rem 0;
+}/*# sourceMappingURL=style.css.map */article .title span {
   color: red;
 }
 

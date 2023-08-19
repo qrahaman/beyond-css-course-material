@@ -32,14 +32,14 @@ body {
   text-decoration: none;
   border: #da3f0b;
 }
-.btn:hover,
-.btn:focus {
+.btn:hover, .btn:focus {
   background: #201e1f;
   color: #f8f7f7;
   box-shadow: #da3f0b;
 }
 .btn--primary {
   color: #f8f7f7;
+  background: #da3f0b;
 }
 .btn--outline {
   background: #f8f7f7;
@@ -49,4 +49,4 @@ body {
 .flex-group {
   display: flex;
   gap: 1rem;
-} /*# sourceMappingURL=variable-challenge.css.map */
+}/*# sourceMappingURL=variable-challenge.css.map */
