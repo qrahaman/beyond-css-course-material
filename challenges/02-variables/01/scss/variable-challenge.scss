@@ -25,7 +25,7 @@ body {
   gap: 0.75em;
   width: min(90%, 60rem);
   padding: 2em;
-  box-shadow: $clr-black;
+  box-shadow: 5px 5px 10px 5px $clr-black;
   &__title {
     color: #da3f0b;
   }
