@@ -30,7 +30,7 @@ body {
   display: inline-block;
   padding: 0.5em 1.5em;
   text-decoration: none;
-  border: #da3f0b;
+  border: #da3f0b 1px solid;
 }
 .btn:hover, .btn:focus {
   background: #201e1f;
@@ -39,6 +39,7 @@ body {
 }
 .btn--primary {
   color: #f8f7f7;
+  background: #da3f0b;
 }
 .btn--outline {
   background: #f8f7f7;
