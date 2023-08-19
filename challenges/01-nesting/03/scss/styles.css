@@ -37,7 +37,29 @@ section {
   text-decoration: none;
   text-transform: uppercase;
 }
+.surface-primary .btn, .surface-secondary .btn {
+  background: white;
+  color: black;
+}
+.surface-accent .btn {
+  color: white;
+  background: black;
+}
+.btn:hover, .btn:focus {
+  background: inherit;
+  color: inherit;
+  outline: currentColor 2px solid;
+}
 
 .text-subdued {
   font-size: 1rem;
+}
+.surface-primary .text-subdued {
+  opacity: 1rem;
+}
+.surface-secondary .text-subdued {
+  opacity: 0.7;
+}
+.surface-accent .text-subdued {
+  opacity: 0.6;
 }/*# sourceMappingURL=styles.css.map */
