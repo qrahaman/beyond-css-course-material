@@ -35,7 +35,7 @@ body {
   display: inline-block;
   padding: 0.5em 1.5em;
   text-decoration: none;
-  border: $clr-red;
+  border: $clr-red 1px solid;
   &:hover,
   &:focus {
     background: $clr-black;
