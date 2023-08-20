@@ -4,8 +4,10 @@
     {
       "format": "expanded",
       "extensionName": ".css",
-      "savePath": "/css"
+      "savePath": "/02-variables/01/css"
     }
   ],
-  "liveSassCompile.settings.includeItems": ["/scss/*.scss"]
+  "liveSassCompile.settings.includeItems": [
+    "/02-variables/01/scss/variable-challenge.scss"
+  ]
 }
